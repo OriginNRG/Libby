@@ -1,6 +1,7 @@
 from random import choice
 from typing import List
 from pathlib import Path
+import discord
 from redbot.core import commands
 
 flirts = open(Path(__file__).parent / "data/lines.txt").read().splitlines()
