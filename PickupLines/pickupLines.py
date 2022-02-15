@@ -3,7 +3,7 @@ from typing import List
 from pathlib import Path
 from redbot.core import commands
 
-flirts = open(Path(__file__).parent / "lines.txt").read().splitlines()
+flirts = open(Path(__file__).parent / "data/lines.txt").read().splitlines()
 
 class PickupLines(commands.Cog):
 
