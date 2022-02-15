@@ -6,9 +6,6 @@ flirts = open('./data/list.txt').read().splitlines()
 
 class PickupLines(commands.Cog):
 
-	_author = "Origin"
-    _version = "0.0.1"
-
     def __init__(self, bot):
         self.bot = bot
 
