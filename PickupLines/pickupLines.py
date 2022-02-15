@@ -2,11 +2,11 @@ from random import choice
 from typing import List
 from redbot.core import commands
 
-flirts = open('file.txt').read().splitlines()
+flirts = open('./data/list.txt').read().splitlines()
 
 class PickupLines(commands.Cog):
 
-	_author = ["Origin"]
+	_author = "Origin"
     _version = "0.0.1"
 
     def __init__(self, bot):
