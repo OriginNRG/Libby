@@ -2,7 +2,7 @@ from random import choice
 from typing import List
 from redbot.core import commands
 
-flirts = open('./data/list.txt').read().splitlines()
+flirts = open('data/list.txt').read().splitlines()
 
 class PickupLines(commands.Cog):
 
