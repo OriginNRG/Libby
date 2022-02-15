@@ -1,0 +1,7 @@
+{
+    "author" : "Origin (Origin#7777)",
+    "short" : "Testing Cog for Libby",
+    "description" : "This is just a test cog that will be used for testing purposes only for Libby.",
+    "name" : "TestCog",
+    "install_msg" : "Thank you for installing! UwU."
+}
