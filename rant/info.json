@@ -1,0 +1,9 @@
+{
+  "author" : ["Jintaku, Origin"],
+  "bot_version": [1,0,0],
+  "install_msg" : "Thank you for installing! UwU.",
+  "short" : "Rant secretly.",
+  "description" : "Rant in a private room to deaf ears",
+  "tags" : ["rant", "secret"],
+  "hidden" : false
+}

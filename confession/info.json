@@ -1,0 +1,9 @@
+{
+  "author" : ["Jintaku, Origin"],
+  "bot_version": [3,0,0],
+  "install_msg" : "Thank you for installing! UwU.",
+  "short" : "Confess secretly.",
+  "description" : "Confess in a confession room to repent your crimes.",
+  "tags" : ["confession", "crime", "secret"],
+  "hidden" : false
+}
