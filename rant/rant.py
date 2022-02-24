@@ -107,7 +107,11 @@ class Rant(BaseCog):
             return await ctx.author.send("The rant room does not appear to exist.")
 
         try:
-            await ctx.bot.send_filtered(destination=rant_room, content=rant)
+            
+            embed=discord.Embed(color=0xff0000)
+            embed.add_field(name="Rant", value=rant, inline=False)
+            await ctx.bot.send_filtered(destination=rant_room, embed=embed)
+
         except discord.errors.Forbidden:
             return await ctx.author.send("I don't have permission to send messages to this room or something went wrong.")
             
