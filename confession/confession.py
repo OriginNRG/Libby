@@ -107,7 +107,11 @@ class Confession(BaseCog):
             return await ctx.author.send("The confession room does not appear to exist.")
 
         try:
-            await ctx.bot.send_filtered(destination=confession_room, content=confession)
+
+            embed=discord.Embed(color=0x00ccff)
+            embed.add_field(name="Confession", value=confession, inline=False)
+            await ctx.bot.send_filtered(destination=confession_room, embed=embed)
+
         except discord.errors.Forbidden:
             return await ctx.author.send("I don't have permission to send messages to this room or something went wrong.")
             
