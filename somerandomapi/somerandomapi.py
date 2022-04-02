@@ -66,7 +66,7 @@ class SomeRandomAPI(commands.Cog):
         author = ctx.author.display_name
         color = await ctx.embed_color()
         e = discord.Embed(color=color, title=title, description=description)
-        e.set_footer(text="Requested by: " + author)
+        e.set_footer(text="Requested by: " + author + " • From Source: some-random-api.ml")
         await ctx.send(embed=e)
 
     @commands.command()
