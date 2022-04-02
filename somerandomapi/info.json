@@ -1,0 +1,9 @@
+{
+  "author" : "Origin",
+  "bot_version": [3,0,0],
+  "install_msg" : "Thank you for installing! UwU.",
+  "short" : "Lots of endpoints from some-random-api.ml",
+  "description" : "Lots of endpoints from some-random-api.ml",
+  "tags" : ["random", "api", "some-random-api"],
+  "hidden" : false
+}
